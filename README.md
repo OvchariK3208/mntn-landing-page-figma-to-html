@@ -2,6 +2,8 @@
 
 A clean static implementation of the MNTN landing page concept, built with semantic HTML, modular CSS, and a small amount of vanilla JavaScript.
 
+## [Live Version](https://mntn-landing-page-figma-to-html.vercel.app/)
+
 ## Overview
 
 This repository focuses on readable frontend code rather than framework usage or build tooling. The page is intentionally shipped as a plain static site:
