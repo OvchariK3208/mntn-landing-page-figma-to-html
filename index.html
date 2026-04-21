@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MNTN is a static landing page implementation built with semantic HTML, modular CSS, and vanilla JavaScript."
+    />
+    <title>MNTN - Figma to HTML</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css?v=20260421-2" />
+    <link rel="stylesheet" href="css/layout.css?v=20260421-2" />
+    <link rel="stylesheet" href="css/components.css?v=20260421-2" />
+    <link rel="stylesheet" href="css/motion.css?v=20260421-2" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container site-header__container">
+          <a class="site-logo" href="#" aria-label="MNTN home" data-placeholder-link="true">
+            MNTN
+          </a>
+
+          <nav class="site-nav" aria-label="Primary">
+            <ul class="site-nav__list">
+              <li><a class="site-nav__link" href="#" data-placeholder-link="true">Equipment</a></li>
+              <li><a class="site-nav__link" href="#" data-placeholder-link="true">About us</a></li>
+              <li><a class="site-nav__link" href="#" data-placeholder-link="true">Blog</a></li>
+            </ul>
+          </nav>
+
+          <a class="account-link" href="#" aria-label="Account" data-placeholder-link="true">
+            <img
+              class="account-link__icon"
+              src="assets/icons/profile-icon.svg"
+              alt=""
+              width="24"
+              height="24"
+              aria-hidden="true"
+            />
+            <span class="account-link__label">Account</span>
+          </a>
+        </div>
+      </header>
+
+      <nav class="social-rail" aria-label="Social media">
+        <span class="social-rail__label">Follow us</span>
+        <ul class="social-rail__list">
+          <li>
+            <a class="social-rail__link" href="https://instagram.com" aria-label="Instagram">
+              <img
+                src="assets/icons/instagram-icon.svg"
+                alt=""
+                width="24"
+                height="24"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="social-rail__link" href="https://twitter.com" aria-label="Twitter">
+              <img
+                src="assets/icons/twitter-icon.svg"
+                alt=""
+                width="24"
+                height="24"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="section-rail" aria-label="Section navigation">
+        <ul class="section-rail__list">
+          <li>
+            <a
+              class="section-rail__link is-active"
+              href="#hero"
+              data-section-link="hero"
+              aria-current="location"
+            >
+              Start
+            </a>
+          </li>
+          <li>
+            <a class="section-rail__link" href="#step-01" data-section-link="step-01">01</a>
+          </li>
+          <li>
+            <a class="section-rail__link" href="#step-02" data-section-link="step-02">02</a>
+          </li>
+          <li>
+            <a class="section-rail__link" href="#step-03" data-section-link="step-03">03</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main id="main-content">
+        <section class="hero" id="hero" data-section="hero">
+          <div class="hero__media" aria-hidden="true">
+            <img class="hero__image hero__image--sky" src="assets/images/HG.webp" alt="" />
+            <img class="hero__image hero__image--mountains" src="assets/images/MG.webp" alt="" />
+            <div class="hero__shade"></div>
+          </div>
+
+          <div class="container hero__container">
+            <div class="hero__content">
+              <p class="section-label">A hiking guide</p>
+              <h1 class="hero__title">Be prepared for the mountains and beyond.</h1>
+              <a class="hero__scroll" href="#step-01">
+                <span>Scroll down</span>
+                <img
+                  src="assets/icons/down-arrow.svg"
+                  alt=""
+                  width="16"
+                  height="24"
+                  aria-hidden="true"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__foreground" aria-hidden="true">
+            <img class="hero__image hero__image--foreground" src="assets/images/VG.webp" alt="" />
+            <div class="hero__fade"></div>
+          </div>
+        </section>
+
+        <section class="feature-section" id="step-01" data-section="step-01">
+          <div class="container feature-section__container">
+            <div class="feature-section__content">
+              <div class="feature-section__body">
+                <span class="feature-section__index" aria-hidden="true">01</span>
+
+                <div class="feature-section__stack">
+                  <p class="section-label">Get started</p>
+                  <h2 class="feature-section__title">What level of hiker are you?</h2>
+                  <p class="feature-section__text">
+                    Determining what level of hiker you are can be an important tool when planning
+                    future hikes. This hiking level guide will help you plan hikes according to
+                    different trail ratings, distances, elevation gain and technical experience.
+                  </p>
+                  <a class="text-link" href="#" data-placeholder-link="true">
+                    <span>Read more</span>
+                    <img
+                      src="assets/icons/right-arrow.svg"
+                      alt=""
+                      width="24"
+                      height="16"
+                      aria-hidden="true"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <figure class="feature-section__media">
+                <img
+                  class="feature-section__image"
+                  src="assets/images/01.webp"
+                  alt="Hiker walking along a narrow mountain ridge trail"
+                  width="566"
+                  height="720"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-section feature-section--reverse" id="step-02" data-section="step-02">
+          <div class="container feature-section__container">
+            <div class="feature-section__content">
+              <figure class="feature-section__media">
+                <img
+                  class="feature-section__image"
+                  src="assets/images/02.webp"
+                  alt="Backpacker standing on a rocky mountain peak"
+                  width="566"
+                  height="720"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+
+              <div class="feature-section__body">
+                <span class="feature-section__index" aria-hidden="true">02</span>
+
+                <div class="feature-section__stack">
+                  <p class="section-label">Hiking essentials</p>
+                  <h2 class="feature-section__title">Picking the right hiking gear.</h2>
+                  <p class="feature-section__text">
+                    The nicest thing about beginning hiking is that you do not need much
+                    specialized equipment. A good pair of boots, proper layers and a few trail
+                    essentials are enough to keep your first mountain days safe, comfortable and
+                    memorable.
+                  </p>
+                  <a class="text-link" href="#" data-placeholder-link="true">
+                    <span>Read more</span>
+                    <img
+                      src="assets/icons/right-arrow.svg"
+                      alt=""
+                      width="24"
+                      height="16"
+                      aria-hidden="true"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-section" id="step-03" data-section="step-03">
+          <div class="container feature-section__container">
+            <div class="feature-section__content">
+              <div class="feature-section__body">
+                <span class="feature-section__index" aria-hidden="true">03</span>
+
+                <div class="feature-section__stack">
+                  <p class="section-label">Where you go is the key</p>
+                  <h2 class="feature-section__title">Understand your map and timing.</h2>
+                  <p class="feature-section__text">
+                    To start, print out the hiking guide and map. If it is raining, throw them in a
+                    small zip bag. Read over the route, note your time windows and landmarks, and
+                    keep the essentials within easy reach before you head out.
+                  </p>
+                  <a class="text-link" href="#" data-placeholder-link="true">
+                    <span>Read more</span>
+                    <img
+                      src="assets/icons/right-arrow.svg"
+                      alt=""
+                      width="24"
+                      height="16"
+                      aria-hidden="true"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <figure class="feature-section__media">
+                <img
+                  class="feature-section__image"
+                  src="assets/images/03.webp"
+                  alt="Hand holding a compass with mountains in the background"
+                  width="566"
+                  height="720"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__container">
+          <div class="site-footer__brand">
+            <a class="site-logo site-logo--footer" href="#" data-placeholder-link="true">MNTN</a>
+
+            <p class="site-footer__summary">
+              Get out there and discover your next slope, mountain and destination. Built as a
+              frontend portfolio implementation from a Figma concept.
+            </p>
+
+            <div class="site-footer__meta">
+              <p>Copyright 2026 MNTN, Inc. Terms &amp; Privacy</p>
+              <p>
+                A concept by
+                <a
+                  class="author-link"
+                  href="https://www.figma.com/@kryston"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kryston Schwarze
+                </a>
+              </p>
+              <p>
+                A development by
+                <a
+                  class="author-link"
+                  href="https://github.com/OvchariK3208/mntn-landing-page-figma-to-html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  OvchariK3208
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="site-footer__menus">
+            <nav class="footer-nav" aria-label="More on the blog">
+              <h2 class="footer-nav__title">More on The Blog</h2>
+              <ul class="footer-nav__list">
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">About MNTN</a>
+                </li>
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">
+                    Contributors &amp; Writers
+                  </a>
+                </li>
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">Write For Us</a>
+                </li>
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">Contact Us</a>
+                </li>
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="footer-nav" aria-label="More on MNTN">
+              <h2 class="footer-nav__title">More on MNTN</h2>
+              <ul class="footer-nav__list">
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">The Team</a>
+                </li>
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">Jobs</a>
+                </li>
+                <li>
+                  <a class="footer-nav__link" href="#" data-placeholder-link="true">Press</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js?v=20260421-2"></script>
+  </body>
+</html>

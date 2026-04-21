@@ -1,0 +1,29 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.codex
+.idea/
+.vscode/
+.codex/
+.playwright-mcp/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+/current-*.png
+/desktop-*.png
+/mobile-*.png
+/step*-mobile.png
+
+# Tooling cache
+.cache/
+dist/

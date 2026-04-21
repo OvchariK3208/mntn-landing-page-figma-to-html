@@ -1,0 +1,25 @@
+.page-shell {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: clip;
+  background:
+    linear-gradient(180deg, rgba(11, 29, 38, 0.18) 0%, rgba(11, 29, 38, 0.72) 28%, #0b1d26 48%),
+    var(--color-bg);
+}
+
+.container {
+  width: min(var(--container-max), calc(100% - (var(--page-gutter) * 2)));
+  margin-inline: auto;
+}
+
+.hero,
+.site-footer {
+  scroll-margin-top: 2rem;
+}
+
+.hero__container,
+.feature-section__container,
+.site-footer__container {
+  position: relative;
+  z-index: 1;
+}
