@@ -13,12 +13,6 @@ This repository focuses on readable frontend code rather than framework usage or
 
 The codebase is organized so that a developer can read the page structure, layout rules, component styles, and motion behavior without digging through a monolithic stylesheet.
 
-## Stack
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
 ## Architecture
 
 ```txt
@@ -44,20 +38,6 @@ mntn-landing-page-figma-to-html/
 - `css/components.css`: header, hero, feature sections, footer, and responsive component rules.
 - `css/motion.css`: interaction and motion-specific styling.
 - `js/main.js`: placeholder-link handling, active section tracking, and hero motion updates.
-
-## Local Run
-
-Open `index.html` directly in a browser or start a simple static server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://127.0.0.1:8000`.
-
-## Deployment
-
-The project is ready for static hosting as-is. It can be deployed to Vercel, Netlify, GitHub Pages, or any other static file host without additional configuration.
 
 ## Credits
 
